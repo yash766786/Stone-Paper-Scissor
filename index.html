@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="right">
+        <div>
+          <h2>Choose any card</h2>
+        </div>
+        <button class="box btn1" id="stone" value="stone">
+          <img id="stone" src="assets/stone.svg" alt="" />
+        </button>
+        <button class="box btn2" id="paper">
+          <img id="paper" src="assets/paper.svg" alt="" />
+        </button>
+        <button class="box btn3" id="scissor">
+          <img id="scissor" src="assets/scissor.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="left">
+        <h1>Stone-Paper-scissor</h1>
+      </div>
+
+      <div class="scoreContainer">
+        <h2>ScoreBoard</h2>
+        <h3>Round <span class="roundNumber">0</span>
+        </h3>
+        <div class="scoreboard">
+          <div>
+            <h3>You</h3>
+            <div class="userScore">0</div>
+          </div>
+          <div>
+            <h3>Comp</h3>
+            <div class="aiScore">0</div>
+          </div>
+        </div>
+        <button class="reset" id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

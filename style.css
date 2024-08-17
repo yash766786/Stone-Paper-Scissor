@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    margin: 10px;
+    background-color: rebeccapurple;
+    display: flex;
+    padding: 10px;
+}
+.right{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.left{
+    margin: 10px 10px 10px 50px;
+    padding: 10px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.scoreContainer{
+    width: 200px;
+    height: 180px;
+    margin: 200px 10px 10px 50px;
+    padding: 10px;
+    background-color: rgb(117 187 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+     border: 2px solid black;
+}
+.scoreboard{   
+    background-color: whitesmoke;
+    border: 2px solid rgb(25, 44, 21);
+    width: 120px;
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+}
+.userScore, .aiScore{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+}
+.reset{
+    width: 60px;
+    background-color: black;
+    border-color: black;
+    border-radius: 7px;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+}
